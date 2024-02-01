@@ -94,11 +94,11 @@ public class Product {
      * @return Details of the specific product
      */
     public String toString()
-    //  The toString should return a String in the form e.g:
-    //  "Product description: Flatscreen TV  product code: 2000  unit cost: 1000 and currently in product line: Y"
-
     {
-        return "TO DO WRITE TOSTRING";
+        return "Product description: " + productName
+                + ", product code: " + productCode
+                + ", unit cost: " + unitCost
+                + ", currently in product line: " + inCurrentProductLine;
     }
 
 }

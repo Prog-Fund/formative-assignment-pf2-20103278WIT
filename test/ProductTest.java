@@ -48,7 +48,7 @@ class ProductTest {
 
         @Test
         void boundaryTestsForProductCodeValidation() {
-            // Validation is: between 1000 and 5000 inclusive
+            // Validation is: between 1000 and 5000
 
             // Testing lower boundaries for product code, set at constructor level
             assertEquals(5000, tv42Inches.getProductCode());  // 999 is invalid - should default to 5000
